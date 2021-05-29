@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/temirKhan42/frontend-project-lvl1#readme",
   "bin": {
-    "frontend-project-lvl1": "brain-games.js"
+    "brain-games": "bin/brain-games.js"
   }
 }
