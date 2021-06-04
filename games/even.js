@@ -16,7 +16,7 @@ class GameEven {
       if (!isAnswerRight) {
         this.showLooseMessage();
         break;
-      } if (isAnswerRight) {
+      } else if (isAnswerRight) {
         console.log('Correct!');
         counter += 1;
       }
