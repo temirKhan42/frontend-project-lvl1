@@ -10,6 +10,10 @@
 
 [![asciicast](https://asciinema.org/a/eL2sB26DXt0rAnEzS7Zshrshj.svg)](https://asciinema.org/a/eL2sB26DXt0rAnEzS7Zshrshj)
 
-### Play 'brain-calc' game
+### Play "brain-calc" game
 
 [![asciicast](https://asciinema.org/a/KwB73gLe1ddpJu3I6kCq0Ll5y.svg)](https://asciinema.org/a/KwB73gLe1ddpJu3I6kCq0Ll5y)
+
+### Play "brain-gcd" game
+
+[![asciicast](https://asciinema.org/a/KSBTwWS9FuQLG6nou1qrvG2KF.svg)](https://asciinema.org/a/KSBTwWS9FuQLG6nou1qrvG2KF)
