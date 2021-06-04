@@ -6,4 +6,10 @@
 
 ![Actions Status](https://github.com/temirKhan42/frontend-project-lvl1/actions/workflows/node.js.yml/badge.svg)
 
+### Start using package
+
 [![asciicast](https://asciinema.org/a/eL2sB26DXt0rAnEzS7Zshrshj.svg)](https://asciinema.org/a/eL2sB26DXt0rAnEzS7Zshrshj)
+
+### Play 'brain-calc' game
+
+[![asciicast](https://asciinema.org/a/KwB73gLe1ddpJu3I6kCq0Ll5y.svg)](https://asciinema.org/a/KwB73gLe1ddpJu3I6kCq0Ll5y)
