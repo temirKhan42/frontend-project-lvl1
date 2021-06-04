@@ -2,6 +2,7 @@ import greet from './cli.js';
 import GameEven from '../games/even.js';
 import GameCalc from '../games/calc.js';
 import GameGcd from '../games/gcd.js';
+import GameProgression from '../games/progression.js';
 
 class Games {
   constructor(gameName) {
@@ -20,6 +21,9 @@ class Games {
       game.initiate();
     } else if (this.gameName === 'gcd') {
       game = new GameGcd(this.userName);
+      game.initiate();
+    } else if (this.gameName === 'progression') {
+      game = new GameProgression(this.userName);
       game.initiate();
     }
   }
