@@ -35,7 +35,7 @@ class GameProgression {
     const progLength = GameProgression.genRndm(5, 5);
     const progStart = GameProgression.genRndm(20);
     const progStep = GameProgression.genRndm(50);
-    const xStep = GameProgression.genRndm(progLength);
+    const xStep = GameProgression.genRndm(progLength - 1);
     const progression = [];
 
     for (let i = 0; i < progLength; i += 1) {
