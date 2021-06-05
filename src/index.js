@@ -1,5 +1,5 @@
 import greet from './cli.js';
-import Even from '../games/even.js';
+import startEven from '../games/even.js';
 import startCalc from '../games/calc.js';
 import Gcd from '../games/gcd.js';
 import Progression from '../games/progression.js';
@@ -10,8 +10,7 @@ const startGame = (gameName) => {
   let game = null;
 
   if (gameName === 'even') {
-    game = new Even(userName);
-    game.initiate();
+    startEven(userName);
   } else if (gameName === 'calc') {
     startCalc(userName);
   } else if (gameName === 'gcd') {
