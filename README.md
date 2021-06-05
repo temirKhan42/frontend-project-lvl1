@@ -21,3 +21,7 @@
 ### Play "brain-progression" game
 
 [![asciicast](https://asciinema.org/a/6PXHuRH1ukBlg7MrcagOoTxdR.svg)](https://asciinema.org/a/6PXHuRH1ukBlg7MrcagOoTxdR)
+
+### Play "brain-prime" game
+
+[![asciicast](https://asciinema.org/a/Q0TmNgWQwiABpl4r6mjMwbxIX.svg)](https://asciinema.org/a/Q0TmNgWQwiABpl4r6mjMwbxIX)
