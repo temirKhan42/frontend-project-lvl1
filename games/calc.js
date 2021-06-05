@@ -27,8 +27,8 @@ class Calc {
     }
   }
 
-  static getRandomInt(max) {
-    return Math.floor(Math.random() * max);
+  static getRndm(max, start = 0) {
+    return Math.floor(Math.random() * (max + 1) + start);
   }
 
   solveExp(operands, operator) {
@@ -52,11 +52,11 @@ class Calc {
     const operators = ['+', '-', '*'];
 
     for (let i = 0; i < 2; i += 1) {
-      const operand = GameCalc.getRandomInt(101);
+      const operand = Calc.getRndm(101);
       operands[i] = operand;
     }
 
-    const operator = operators[GameCalc.getRandomInt(3)];
+    const operator = operators[Calc.getRndm(3)];
     this.solveExp(operands, operator);
     this.generatedExp = `${operands[0]} ${operator} ${operands[1]}`;
   }
