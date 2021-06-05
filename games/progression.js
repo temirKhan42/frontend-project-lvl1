@@ -35,18 +35,18 @@ class GameProgression {
     const progLength = GameProgression.genRndm(5, 5);
     const progStart = GameProgression.genRndm(20);
     const progStep = GameProgression.genRndm(50, 1);
-    const xStep = GameProgression.genRndm(progLength - 1);
+    const xNum = GameProgression.genRndm(progLength - 1);
     const progression = [];
 
     for (let i = 0; i < progLength; i += 1) {
       progression[i] = progStart + (i * progStep);
     }
 
-    this.generateQuestion(progression, xStep);
+    this.generateQuestion(progression, xNum);
   }
 
-  generateQuestion(progression, xStep) {
-    [this.correctAnswer] = progression.splice(xStep, 1, '..');
+  generateQuestion(progression, xNum) {
+    [this.correctAnswer] = progression.splice(xNum, 1, '..');
     this.progressionQ = progression.join(' ');
   }
 
