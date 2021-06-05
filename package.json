@@ -1,6 +1,6 @@
 {
   "name": "frontend-project-lvl1",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "[![Actions Status](https://github.com/temirKhan42/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/temirKhan42/frontend-project-lvl1/actions)",
   "main": "index.js",
   "type": "module",
