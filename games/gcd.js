@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-class GameGcd {
+class Gcd {
   constructor(userName) {
     this.userName = userName;
   }
@@ -81,4 +81,4 @@ class GameGcd {
   }
 }
 
-export default GameGcd;
+export default Gcd;

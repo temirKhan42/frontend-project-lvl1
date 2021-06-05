@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-class GameProgression {
+class Progression {
   constructor(userName) {
     this.userName = userName;
   }
@@ -27,15 +27,15 @@ class GameProgression {
     }
   }
 
-  static genRndm(max, start = 0) {
+  static getRndm(max, start = 0) {
     return Math.floor(Math.random() * (max + 1) + start);
   }
 
   generateProgression() {
-    const progLength = GameProgression.genRndm(5, 5);
-    const progStart = GameProgression.genRndm(20);
-    const progStep = GameProgression.genRndm(50, 1);
-    const xNum = GameProgression.genRndm(progLength - 1);
+    const progLength = Progression.getRndm(5, 5);
+    const progStart = Progression.getRndm(20);
+    const progStep = Progression.getRndm(50, 1);
+    const xNum = Progression.getRndm(progLength - 1);
     const progression = [];
 
     for (let i = 0; i < progLength; i += 1) {
@@ -62,4 +62,4 @@ class GameProgression {
   }
 }
 
-export default GameProgression;
+export default Progression;

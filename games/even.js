@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-class GameEven {
+class Even {
   constructor(name) {
     this.name = name;
   }
@@ -57,4 +57,4 @@ class GameEven {
   }
 }
 
-export default GameEven;
+export default Even;

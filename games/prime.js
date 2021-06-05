@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-class GamePrime {
+class Prime {
   constructor(userName) {
     this.userName = userName;
   }
@@ -92,4 +92,4 @@ class GamePrime {
   }
 }
 
-export default GamePrime;
+export default Prime;

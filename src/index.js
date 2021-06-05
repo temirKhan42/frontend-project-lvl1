@@ -1,9 +1,9 @@
 import greet from './cli.js';
-import GameEven from '../games/even.js';
-import GameCalc from '../games/calc.js';
-import GameGcd from '../games/gcd.js';
-import GameProgression from '../games/progression.js';
-import GamePrime from '../games/prime.js';
+import Even from '../games/even.js';
+import Calc from '../games/calc.js';
+import Gcd from '../games/gcd.js';
+import Progression from '../games/progression.js';
+import Prime from '../games/prime.js';
 
 class Games {
   constructor(gameName) {
@@ -15,19 +15,19 @@ class Games {
     let game = null;
 
     if (this.gameName === 'even') {
-      game = new GameEven(this.userName);
+      game = new Even(this.userName);
       game.initiate();
     } else if (this.gameName === 'calc') {
-      game = new GameCalc(this.userName);
+      game = new Calc(this.userName);
       game.initiate();
     } else if (this.gameName === 'gcd') {
-      game = new GameGcd(this.userName);
+      game = new Gcd(this.userName);
       game.initiate();
     } else if (this.gameName === 'progression') {
-      game = new GameProgression(this.userName);
+      game = new Progression(this.userName);
       game.initiate();
     } else if (this.gameName === 'prime') {
-      game = new GamePrime(this.userName);
+      game = new Prime(this.userName);
       game.initiate();
     }
   }

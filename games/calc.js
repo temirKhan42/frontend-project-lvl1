@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-class GameCalc {
+class Calc {
   constructor(userName) {
     this.userName = userName;
   }
@@ -73,4 +73,4 @@ class GameCalc {
   }
 }
 
-export default GameCalc;
+export default Calc;
