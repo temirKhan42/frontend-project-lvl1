@@ -5,32 +5,26 @@ import Gcd from '../games/gcd.js';
 import Progression from '../games/progression.js';
 import Prime from '../games/prime.js';
 
-class Games {
-  constructor(gameName) {
-    this.gameName = gameName;
+const startGame = (gameName) => {
+  const userName = greet();
+  let game = null;
+
+  if (gameName === 'even') {
+    game = new Even(userName);
+    game.initiate();
+  } else if (gameName === 'calc') {
+    game = new Calc(userName);
+    game.initiate();
+  } else if (gameName === 'gcd') {
+    game = new Gcd(userName);
+    game.initiate();
+  } else if (gameName === 'progression') {
+    game = new Progression(userName);
+    game.initiate();
+  } else if (gameName === 'prime') {
+    game = new Prime(userName);
+    game.initiate();
   }
+};
 
-  initiate() {
-    this.userName = greet();
-    let game = null;
-
-    if (this.gameName === 'even') {
-      game = new Even(this.userName);
-      game.initiate();
-    } else if (this.gameName === 'calc') {
-      game = new Calc(this.userName);
-      game.initiate();
-    } else if (this.gameName === 'gcd') {
-      game = new Gcd(this.userName);
-      game.initiate();
-    } else if (this.gameName === 'progression') {
-      game = new Progression(this.userName);
-      game.initiate();
-    } else if (this.gameName === 'prime') {
-      game = new Prime(this.userName);
-      game.initiate();
-    }
-  }
-}
-
-export default Games;
+export default startGame;
