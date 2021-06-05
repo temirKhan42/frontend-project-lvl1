@@ -52,11 +52,11 @@ class Calc {
     const operators = ['+', '-', '*'];
 
     for (let i = 0; i < 2; i += 1) {
-      const operand = Calc.getRndm(101);
+      const operand = Calc.getRndm(100);
       operands[i] = operand;
     }
 
-    const operator = operators[Calc.getRndm(3)];
+    const operator = operators[Calc.getRndm(2)];
     this.solveExp(operands, operator);
     this.generatedExp = `${operands[0]} ${operator} ${operands[1]}`;
   }
