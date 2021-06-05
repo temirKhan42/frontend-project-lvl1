@@ -2,7 +2,7 @@ import greet from './cli.js';
 import startEven from '../games/even.js';
 import startCalc from '../games/calc.js';
 import startGcd from '../games/gcd.js';
-import Progression from '../games/progression.js';
+import startProgression from '../games/progression.js';
 import Prime from '../games/prime.js';
 
 const startGame = (gameName) => {
@@ -16,8 +16,7 @@ const startGame = (gameName) => {
   } else if (gameName === 'gcd') {
     startGcd(userName);
   } else if (gameName === 'progression') {
-    game = new Progression(userName);
-    game.initiate();
+    startProgression(userName);
   } else if (gameName === 'prime') {
     game = new Prime(userName);
     game.initiate();
